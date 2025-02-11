@@ -1,0 +1,122 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "What's up?", "Good day", "Greetings", "Howdy", 
+        "Yo!", "What's good?", "How's it going?", "Anyone there?", "Hey there",
+        "こんにちは", "おはよう", "こんばんは", "やあ", "元気ですか？"
+      ],
+      "responses": [
+        "Hello!", "Hi there!", "Hey!", "Greetings!", "How can I help you today?",
+        "Yo! How’s everything going?", "Nice to see you!", "Hello, friend!",
+        "こんにちは！", "おはようございます！", "こんばんは！", "やあ！元気ですか？"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Cya", "Take care", "I am leaving",
+        "Talk to you later", "Catch you later", "See ya", "Peace out",
+        "さようなら", "またね", "じゃね", "バイバイ"
+      ],
+      "responses": [
+        "Goodbye!", "See you soon!", "Take care!", "Catch you later!", 
+        "Bye! Have a great day!", "Peace out!", "It was nice chatting with you!",
+        "さようなら！", "またね！", "バイバイ！", "またお会いしましょう！"
+      ]
+    },
+    {
+      "tag": "how",
+      "patterns": [
+        "How are you?", "How is your day?", "How do you feel?", "Are you good?",
+        "What's new?", "How have you been?", "You doing okay?",
+        "元気ですか？", "調子はどう？"
+      ],
+      "responses": [
+        "I'm fine, thanks for asking!", "I feel great!", "I am doing awesome!",
+        "Just chilling in the digital world!", "I'm always in a good mood!",
+        "元気です！ありがとう！", "絶好調です！"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How's the weather?", "What's the weather like?", "Tell me the weather",
+        "Is it sunny today?", "Is it raining outside?", "Will it snow today?",
+        "今日の天気は？", "雨降ってる？", "寒い？"
+      ],
+      "responses": [
+        "I can't check the weather, but you can try a weather app!",
+        "Check your weather app for the latest update!",
+        "I hope it's sunny where you are!",
+        "天気アプリで確認してください！", "晴れてるといいですね！"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?", "Who are you?", "Tell me your name", "Introduce yourself",
+        "Can you tell me your name?", "あなたの名前は？", "お名前は何ですか？"
+      ],
+      "responses": [
+        "I'm your friendly chatbot!", "You can call me ChatBot!", 
+        "I’m a chatbot here to assist you!",
+        "私はあなたのAIアシスタントです！", "チャットボットです！"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?", "What is your age?", "When were you created?",
+        "Are you old?", "How long have you been here?",
+        "何歳ですか？", "いつ生まれたの？"
+      ],
+      "responses": [
+        "I was created recently!", "I exist outside of time!", "I have been here since the dawn of AI!",
+        "私は時間の概念を超えています！", "最近作られました！"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny", "Give me a joke",
+        "I need a laugh", "面白い話して", "ジョーク言って"
+      ],
+      "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Parallel lines have so much in common. Too bad they’ll never meet.",
+        "Why don’t skeletons fight each other? They don’t have the guts!",
+        "なぜカラスが会議に遅れたの？道に 'カラスの行列' があったから！😂"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?", "I need assistance", "I need help", "Help me",
+        "Can you assist me?", "助けて！", "手伝ってくれる？"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here to assist you. Ask me anything!",
+        "Sure! Tell me how I can help.",
+        "もちろん！どうしましたか？", "手伝いますよ！"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What is AI?", "Tell me about artificial intelligence", "What is machine learning?",
+        "What is deep learning?", "AIって何？", "機械学習とは？", "ディープラーニングって何？"
+      ],
+      "responses": [
+        "AI, or artificial intelligence, is the simulation of human intelligence in machines.",
+        "Machine learning is a type of AI that allows computers to learn from data.",
+        "Deep learning is a subset of machine learning using neural networks!",
+        "AIとは、人間の知能を模倣する技術です。",
+        "機械学習は、コンピューターがデータから学習する技術です。",
+        "ディープラーニングはニューラルネットワークを使用する機械学習の一種です！"
+      ]
+    }
+  ]
+}
